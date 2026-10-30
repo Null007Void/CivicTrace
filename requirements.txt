@@ -1,0 +1,8 @@
+fastapi>=0.115,<1
+uvicorn>=0.35,<1
+httpx>=0.27,<1
+pydantic>=2.10,<3
+# CT-QC-042: the production Cloud Firestore transport adapter
+# (civictrace/spend_firestore_client.py). Exact pin: the adapter is written against this
+# version's transactional API and no other version is claimed compatible.
+google-cloud-firestore==2.34.1

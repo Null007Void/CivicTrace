@@ -1,0 +1,111 @@
+{
+  "registry_version": "0.1.0-research-seed",
+  "case_id": "exeter-e-street-ada-2026",
+  "case_title": "Exeter E Street: what did the records establish?",
+  "municipality": "City of Exeter, California",
+  "jurisdiction_id": "exeter-ca",
+  "project_id": "exeter-e-street-ada",
+  "audit_state": "OFFICIAL_BYTES_CAPTURED__INDEPENDENT_FACT_AUDIT_PENDING",
+  "source_integrity_warning": "Official source bytes captured and SHA-256 pinned. Independent human fact audit pending; all documentary matches are preliminary.",
+  "sources": [
+    {
+      "source_id": "EX-MINUTES-20260428",
+      "title": "Exeter City Council action minutes — April 28, 2026",
+      "official_url": "https://cityofexeter.ca.gov/wp-content/uploads/2026/05/item-i.1-april-28-2026-minutes.pdf",
+      "publisher": "City of Exeter",
+      "jurisdiction_id": "exeter-ca",
+      "document_role": "ADOPTED_ACTION_MINUTES",
+      "document_date": "2026-04-28",
+      "as_of": "2026-04-28",
+      "raw_sha256": "ee079b27657ec52c0abbe92a7a105652b99ab5e0bb0ad806c50d5cf9a510809e",
+      "retrieved_at_utc": "2026-10-22T21:26:18.183618+00:00",
+      "independent_reviewer": null,
+      "review_state": "CAPTURED_PENDING_INDEPENDENT_AUDIT",
+      "reuse_policy": "Link to official original; do not redistribute original PDF in public package without rights review."
+    },
+    {
+      "source_id": "EX-TRACKER-20261009",
+      "title": "Exeter City Council project tracker — E Street row 14",
+      "official_url": "https://cityofexeter.ca.gov/city-of-exeter-city-council-project-tracker/",
+      "publisher": "City of Exeter",
+      "jurisdiction_id": "exeter-ca",
+      "document_role": "CITY_INFORMATIONAL_TRACKER",
+      "document_date": "2026-10-09",
+      "as_of": "2026-10-09",
+      "raw_sha256": "7902e6cf4738ac7dc563506b1f3c372642a3232055d4659169cb9403b46ad57a",
+      "retrieved_at_utc": "2026-10-22T21:26:19.650829+00:00",
+      "independent_reviewer": null,
+      "review_state": "CAPTURED_PENDING_INDEPENDENT_AUDIT",
+      "reuse_policy": "Link to official original; preserve date because HTML can change in place."
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "EX-AUTH-CAP",
+      "source_id": "EX-MINUTES-20260428",
+      "anchor": "PDF page 4 of 5 / J.1 / Resolution 2026-13",
+      "exact_excerpt": "Authorizing the City Administrator to Utilize up to $2,000,000 in Measure R Transit/Bike/Environmental Mitigation Funds Programmed to the City of Exeter for the E Street Active Transportation and ADA Improvements Project",
+      "predicate": "AUTHORIZED_USE_CEILING",
+      "subject_id": "exeter-e-street-ada",
+      "action_id": "J.1-res-2026-13",
+      "jurisdiction_id": "exeter-ca",
+      "amount_cents": 200000000,
+      "currency": "USD",
+      "qualifiers": ["UP_TO", "MEASURE_R", "FOR_ENTIRE_PROJECT_NOT_DESIGN_ONLY"],
+      "reported_at": "2026-04-28"
+    },
+    {
+      "fact_id": "EX-DESIGN",
+      "source_id": "EX-MINUTES-20260428",
+      "anchor": "PDF page 4 of 5 / J.1 / Resolution 2026-13",
+      "exact_excerpt": "Approval of Resolution No. 2026-13, A Resolution of the City Council of the City of Exeter, Authorizing the City Administrator to Utilize up to $2,000,000 in Measure R Transit/Bike/Environmental Mitigation Funds Programmed to the City of Exeter for the E Street Active Transportation and ADA Improvements Project and Authorizing the City Engineer to Commence Design of the Project",
+      "predicate": "DESIGN_AUTHORIZED",
+      "subject_id": "exeter-e-street-ada",
+      "action_id": "J.1-res-2026-13",
+      "jurisdiction_id": "exeter-ca",
+      "qualifiers": ["RECORD_DOES_NOT_AUTHORIZE_OR_ESTABLISH_CONSTRUCTION"],
+      "reported_at": "2026-04-28"
+    },
+    {
+      "fact_id": "EX-VOTE",
+      "source_id": "EX-MINUTES-20260428",
+      "anchor": "PDF page 4 of 5 / J.1 / vote table",
+      "exact_excerpt": "Council Member Riddle recused herself from the item due to a conﬂict of interest. Riddle stepped down from the dais, and did not take part in the discussion or vote of this item. City Engineer provided a report for the Council and members of the public. Mayor opened the item up for public comment. No public comments were presented. Approval of Resolution No. 2026-13, A Resolution of the City Council of the City of Exeter, Authorizing the City Administrator to Utilize up to $2,000,000 in Measure R Transit/Bike/Environmental Mitigation Funds Programmed to the City of Exeter for the E Street Active Transportation and ADA Improvements Project and Authorizing the City Engineer to Commence Design of the Project 1st 2nd Result JONHSON WILSON ALVES RIDDLE LENTZ WILSON JOHNSON (4-0) AYE AYE AYE ABSTAIN AYE",
+      "predicate": "VOTE_APPROVED",
+      "subject_id": "exeter-e-street-ada",
+      "action_id": "J.1-res-2026-13",
+      "jurisdiction_id": "exeter-ca",
+      "yea": 4,
+      "nay": 0,
+      "abstain": 1,
+      "qualifiers": ["RIDDLE_RECUSED"],
+      "reported_at": "2026-04-28"
+    },
+    {
+      "fact_id": "EX-CITY-PHASE",
+      "source_id": "EX-TRACKER-20261009",
+      "anchor": "HTML project table / row 14 / tracker last updated October 9, 2026",
+      "exact_excerpt": "14 E Street Active Transportation and ADA Improvements Project – Authorization of Measure R Funding and Design Commencement 4/28/2026 In Design $2,000,000 in Measure R funds to be utilized for the E Street Active Transportation and ADA Improvements Project",
+      "predicate": "CITY_REPORTS_PHASE",
+      "subject_id": "exeter-e-street-ada",
+      "action_id": "TRACKER-ROW-14",
+      "jurisdiction_id": "exeter-ca",
+      "phase": "IN_DESIGN",
+      "qualifiers": ["CITY_REPORTED_NOT_PHYSICALLY_INSPECTED"],
+      "reported_at": "2026-10-09"
+    },
+    {
+      "fact_id": "EX-EVENT-CLOSURE",
+      "source_id": "EX-MINUTES-20260428",
+      "anchor": "PDF page 3 of 5 / I.4 / consent calendar",
+      "exact_excerpt": "Approval of a Street Closure of E Street between East Cedar Street and Clarence Avenue on May 16, 2026, from 4:00 p.m. to 7:00 p.m. for a Private Fundraising Event hosted by the Center for Art, Culture, and History Exeter (CACHE), and Approval of a Street Closure Fee Waiver, Subject to Conditions of Approval",
+      "predicate": "EVENT_CLOSURE_APPROVED",
+      "subject_id": "exeter-e-street-event-closure",
+      "action_id": "I.4-consent-event",
+      "jurisdiction_id": "exeter-ca",
+      "event_date": "2026-05-16",
+      "qualifiers": ["CACHE_PRIVATE_FUNDRAISER", "CONDITIONS_APPLY"],
+      "reported_at": "2026-04-28"
+    }
+  ]
+}

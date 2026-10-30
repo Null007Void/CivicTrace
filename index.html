@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0b1626"/>
+<title>CivicTrace — From vote to proof</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"/>
+<link rel="stylesheet" href="/assets/site.css"/>
+<script src="/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#primary">Skip to investigation</a>
+<div class="app-shell">
+<header class="topbar">
+  <div class="wordmark"><span class="glyph" aria-hidden="true">◇</span> CIVIC<span>TRACE</span><small> / EVIDENCE COURT</small></div>
+  <div class="buildtag">RESEARCH PREVIEW <span class="little-dot"></span> SOURCE AUDIT PENDING</div>
+</header>
+<main id="primary">
+  <section class="hero">
+    <div class="eyebrow"><span>PUBLIC PROJECT INVESTIGATION</span><span class="eyebrow-line"></span><span>EXETER, CALIFORNIA</span></div>
+    <h1>From vote <i>to proof.</i></h1>
+    <p class="lede">An approval is not a payment. A street closure is not construction. Follow official evidence — and challenge claims that go beyond it.</p>
+    <a class="hero-cta" href="#court">Enter Evidence Court <span aria-hidden="true">↓</span></a>
+    <div class="meta"><span>01 / MUNICIPALITY</span><span>01 / INFRASTRUCTURE PROJECT</span><span>02 / OFFICIAL SOURCE TYPES</span></div>
+  </section>
+  <div id="source-integrity" class="notice" role="status">Loading evidence provenance…</div>
+  <section class="main-grid" aria-label="Case file">
+    <div class="column-main">
+      <div class="panel case-intro">
+        <div class="section-label"><span>01</span> THE CASE <span class="right-label">CASE EX-2026-001</span></div>
+        <h2>E Street Active Transportation &amp; ADA Improvements</h2>
+        <p>Did an authorization of up to <strong>$2 million</strong> mean the project was paid for, built, or completed?</p>
+        <div class="timeline" aria-label="Documentary timeline">
+          <div class="timeline-item"><div class="timeline-point success"></div><div><time>APR 28, 2026</time><strong>Funding use &amp; design authorized</strong><small>Council action, Resolution 2026-13</small></div></div>
+          <div class="timeline-item"><div class="timeline-point reported"></div><div><time>OCT 09, 2026</time><strong>City reported: In Design</strong><small>City project tracker, row 14</small></div></div>
+          <div class="timeline-item"><div class="timeline-point unknown"></div><div><time>BEYOND THESE RECORDS</time><strong>Expenditure, construction &amp; completion</strong><small>Not established by the two selected sources</small></div></div>
+        </div>
+      </div>
+      <div id="court" class="panel challenge-panel">
+        <div class="section-label"><span>02</span> EVIDENCE COURT <span class="right-label">DETERMINISTIC RULES</span></div>
+        <h2>Challenge a claim<span class="asterisk">✳</span></h2>
+        <p class="muted">Select a claim. Evidence Court compares its original meaning against a closed set of registered facts. It never lets a model downgrade <em>spent</em> to <em>authorized</em>.</p>
+        <div id="challenge-options" class="challenges" aria-label="Curated claims">
+          <button type="button" data-claim="spent" class="challenge-btn">They already spent the full $2M <span>↗</span></button>
+          <button type="button" data-claim="construction_from_event" class="challenge-btn">The fundraiser closure proves construction began <span>↗</span></button>
+          <button type="button" data-claim="authorization" class="challenge-btn secondary">Positive control: the council authorized up to $2M <span>↗</span></button>
+          <button type="button" data-claim="event" class="challenge-btn secondary">Positive control: the fundraiser closure was approved <span>↗</span></button>
+          <button type="button" data-claim="completed" class="challenge-btn secondary">The improvements were physically completed <span>↗</span></button>
+          <button type="button" data-claim="vote" class="challenge-btn secondary">Positive control: the resolution passed 4–0 with one abstention <span>↗</span></button>
+          <button type="button" data-claim="vote_5_0" class="challenge-btn">The resolution passed unanimously 5–0 <span>↗</span></button>
+        </div>
+        <div id="verdict" class="verdict empty" aria-live="polite"><span class="placeholder-number">—</span> Select a claim to inspect the evidence.</div>
+      </div>
+      <div class="panel model-panel">
+        <div class="section-label"><span>03</span> MODEL INVESTIGATION <span class="right-label">NEBIUS × NVIDIA</span></div>
+        <h2>Let Nemotron investigate</h2>
+        <p class="muted">When authorized and configured, a real NVIDIA Nemotron model chooses which council item and tracker record to read. Evidence Court makes the final evidence-bound decision.</p>
+        <div class="inference-controls"><label for="question">Question</label><select id="question"><option value="spent">Was the full $2M already spent?</option><option value="construction_from_event">Did the May 16 closure prove construction?</option><option value="status">What progress did the city report?</option><option value="authorization">What exactly did the council authorize?</option></select><button id="investigate" type="button" class="primary-btn">Run real Nebius investigation <span>↗</span></button></div>
+        <p class="safety-note">No simulated model response is labeled live. Without owner-enabled credentials the investigation safely refuses; the documentary challenges remain available.</p>
+        <div id="model-result" class="model-output" aria-live="polite">Live provider state not established.</div>
+      </div>
+    </div>
+    <aside class="column-side" aria-label="Official records">
+      <div class="panel source-panel">
+        <div class="section-label"><span>04</span> OFFICIAL RECORDS</div>
+        <h3>Evidence docket</h3>
+        <p class="muted">Two original City of Exeter source types. The street closure and ADA resolution are separate actions in the <em>same</em> minutes PDF.</p>
+        <div class="source"><span class="source-id">SOURCE 01 / ACTION MINUTES</span><strong>April 28 Council Minutes</strong><small>PDF · pp. 3–4 of 5 · Items I.4 and J.1</small><a href="https://cityofexeter.ca.gov/wp-content/uploads/2026/05/item-i.1-april-28-2026-minutes.pdf" target="_blank" rel="noopener noreferrer">Open official source ↗</a></div>
+        <div class="source"><span class="source-id">SOURCE 02 / STATUS TRACKER</span><strong>City Project Tracker</strong><small>HTML · Row 14 · Updated Oct 9, 2026</small><a href="https://cityofexeter.ca.gov/city-of-exeter-city-council-project-tracker/" target="_blank" rel="noopener noreferrer">Open official source ↗</a></div>
+      </div>
+      <div class="panel rules-panel">
+        <div class="section-label"><span>05</span> WHY THE DISTINCTION MATTERS</div>
+        <h3>Evidence ≠ inference</h3>
+        <div class="rule"><span class="index">01</span><div><b>Authorization ≠ expenditure</b><small>An approved ceiling is not evidence of payment.</small></div></div>
+        <div class="rule"><span class="index">02</span><div><b>Design ≠ construction</b><small>Stage changes require stage-appropriate records.</small></div></div>
+        <div class="rule"><span class="index">03</span><div><b>Same street ≠ same action</b><small>The May 16 fundraiser was a separate item.</small></div></div>
+        <div class="rule"><span class="index">04</span><div><b>Missing ≠ disproved</b><small>Unknown cannot become “never happened.”</small></div></div>
+      </div>
+      <div class="panel footnote-panel"><div class="section-label"><span>06</span> SCOPE &amp; LIMITS</div><p>Research candidate. Official response bytes are captured and hash-pinned, but the source-fact mapping has not yet undergone independent human audit. No physical inspection, finding of misconduct, or comprehensive expenditure audit is claimed.</p></div>
+    </aside>
+  </section>
+</main>
+<footer><span>◇ CIVICTRACE · ORIGINAL-SOURCE FIRST</span><span>PUBLIC RECORDS ≠ PHYSICAL CERTIFICATION</span></footer>
+</div>
+</body>
+</html>

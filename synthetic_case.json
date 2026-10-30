@@ -1,0 +1,105 @@
+{
+  "synthetic": true,
+  "warning": "SYNTHETIC TEST FIXTURE. Every organization, person, amount and record here is fictional. The domain uses the reserved .invalid TLD. This file must never be presented as real government evidence.",
+  "case": {
+    "project_name": "Synthetic Sidewalk Pilot",
+    "municipality": "Synthetic Example Municipality (fictional test fixture)",
+    "case_title": "SYNTHETIC: did the fictional council authorize the sidewalk pilot?",
+    "jurisdiction_id": "synthetic-example",
+    "publisher": "Synthetic Example Municipality",
+    "allowed_hosts": ["records.example.invalid"],
+    "provenance_note": "SYNTHETIC TEST FIXTURE. Not a real government record; never present as evidence."
+  },
+  "sources": [
+    {
+      "key": "minutes",
+      "title": "SYNTHETIC council action minutes (fixture)",
+      "publisher": "Synthetic Example Municipality",
+      "official_url": "https://records.example.invalid/synthetic-minutes.txt",
+      "document_role": "ADOPTED_ACTION_MINUTES",
+      "document_date": "2026-03-02",
+      "as_of": "2026-03-02",
+      "anchor": "Item A.1",
+      "text": "SYNTHETIC FIXTURE - NOT A REAL GOVERNMENT RECORD.\nItem A.1: The Synthetic Council approved up to $1,000 in synthetic test funds for the Synthetic Sidewalk Pilot and authorized the Synthetic Engineer to commence design.\nRecorded vote: 3-0 with one synthetic abstention.\n"
+    },
+    {
+      "key": "tracker",
+      "title": "SYNTHETIC project tracker (fixture)",
+      "publisher": "Synthetic Example Municipality",
+      "official_url": "https://records.example.invalid/synthetic-tracker.txt",
+      "document_role": "CITY_INFORMATIONAL_TRACKER",
+      "document_date": "2026-03-20",
+      "as_of": "2026-03-20",
+      "anchor": "Row 2",
+      "text": "SYNTHETIC FIXTURE - NOT A REAL GOVERNMENT RECORD.\nRow 2: Synthetic Sidewalk Pilot - In Design - synthetic funds up to $1,000.\n"
+    }
+  ],
+  "facts": [
+    {
+      "key": "cap",
+      "source": "minutes",
+      "anchor": "Item A.1",
+      "exact_excerpt": "approved up to $1,000 in synthetic test funds for the Synthetic Sidewalk Pilot",
+      "predicate": "AUTHORIZED_USE_CEILING",
+      "subject_id": "synthetic-sidewalk",
+      "action_id": "A.1-res-1",
+      "qualifiers": ["UP_TO", "SYNTHETIC_FIXTURE"],
+      "amount_cents": 100000
+    },
+    {
+      "key": "design",
+      "source": "minutes",
+      "anchor": "Item A.1",
+      "exact_excerpt": "authorized the Synthetic Engineer to commence design",
+      "predicate": "DESIGN_AUTHORIZED",
+      "subject_id": "synthetic-sidewalk",
+      "action_id": "A.1-res-1",
+      "qualifiers": ["SYNTHETIC_FIXTURE"]
+    },
+    {
+      "key": "phase",
+      "source": "tracker",
+      "anchor": "Row 2",
+      "exact_excerpt": "Synthetic Sidewalk Pilot - In Design",
+      "predicate": "CITY_REPORTS_PHASE",
+      "subject_id": "synthetic-sidewalk",
+      "action_id": "TRACKER-ROW-2",
+      "qualifiers": ["CITY_REPORTED_NOT_PHYSICALLY_INSPECTED", "SYNTHETIC_FIXTURE"],
+      "phase": "IN_DESIGN"
+    }
+  ],
+  "claims": [
+    {
+      "key": "authorization",
+      "text": "The synthetic council authorized up to $1,000 in synthetic funds for the sidewalk pilot.",
+      "predicate": "AUTHORIZED_USE_CEILING",
+      "subject_id": "synthetic-sidewalk",
+      "action_id": "A.1-res-1",
+      "fact_keys": ["cap"],
+      "amount_cents": 100000,
+      "ceiling": true,
+      "additional_record": "Synthetic payment register (fixture)"
+    },
+    {
+      "key": "spent",
+      "text": "The synthetic municipality already spent the full $1,000 on the sidewalk pilot.",
+      "predicate": "PAID_AMOUNT",
+      "subject_id": "synthetic-sidewalk",
+      "action_id": "A.1-res-1",
+      "fact_keys": ["cap"],
+      "amount_cents": 100000,
+      "additional_record": "Synthetic paid invoices (fixture)"
+    },
+    {
+      "key": "status",
+      "text": "The synthetic tracker reported the sidewalk pilot as In Design.",
+      "predicate": "CITY_REPORTS_PHASE",
+      "subject_id": "synthetic-sidewalk",
+      "action_id": "TRACKER-ROW-2",
+      "fact_keys": ["phase"],
+      "phase": "IN_DESIGN",
+      "as_of": "2026-03-20",
+      "additional_record": "Synthetic field inspection (fixture)"
+    }
+  ]
+}

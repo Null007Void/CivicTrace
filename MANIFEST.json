@@ -1,0 +1,335 @@
+{
+  "accepted_base_manifest_sha256": "be8ce3af679bd3b2c75501ed80524ac66030fd7aa96c692718f7aa0322d30343",
+  "members": {
+    ".dockerignore": {
+      "bytes": 194,
+      "sha256": "9467f3ced968edfe7c24000d7a539c313fff3f78b941256f117ac154c6a76aef"
+    },
+    ".env.example": {
+      "bytes": 976,
+      "sha256": "49148d8c1f5259a1d5e30837d6580ea5c70a35cfd035b6a1722eb997fd5df130"
+    },
+    ".gitattributes": {
+      "bytes": 84,
+      "sha256": "913b6aa205340e5308168f23f8888946d78c563383c570a8e0548718288c665b"
+    },
+    ".gitignore": {
+      "bytes": 272,
+      "sha256": "e779ca90cd138c5793260a59112f246bd7e119afe95767108d3bb37c3417dfd8"
+    },
+    "Dockerfile": {
+      "bytes": 1318,
+      "sha256": "23f2c816174a8f811d485bf3727466efbbdacf0ed4debb80db9fb33c613b9bee"
+    },
+    "LICENSE": {
+      "bytes": 1083,
+      "sha256": "31505619a408a1efea2a3e255246b3d1c7526eb424069cb69c9f950c7841571f"
+    },
+    "PUBLIC_FILES.json": {
+      "bytes": 2631,
+      "sha256": "5a3a4556d406e322dab984c742fe0d3bf0425895d9cd862b1b6241aefcdfe1d8"
+    },
+    "README.md": {
+      "bytes": 6601,
+      "sha256": "eaab2071d322927c5626568d3ecb895377070e7e17b7ae9aeb4832b26c2ac8b1"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 16780,
+      "sha256": "863e472a263a315a921d72a3547734e2f75af6d4740466883792dda5a453d1fa"
+    },
+    "civictrace/__init__.py": {
+      "bytes": 93,
+      "sha256": "f4ec0d139a57265dc2ad2fbde17dd8ab38f1733baf47b609f9a1c72925fa2deb"
+    },
+    "civictrace/__main__.py": {
+      "bytes": 180,
+      "sha256": "64cc2482fec3afeced078ae7664771d1ba59b54f0a5e0087514b157e38123e6c"
+    },
+    "civictrace/app.py": {
+      "bytes": 62687,
+      "sha256": "7247eb277ad7dd475f6bcb2492f1ae5b881f79f6988c2a25e0076258e705aa17"
+    },
+    "civictrace/case_store.py": {
+      "bytes": 63963,
+      "sha256": "b7f864359d62f812a67f42258772c5db1c5f4f1480b001735eea324989be8945"
+    },
+    "civictrace/court.py": {
+      "bytes": 36103,
+      "sha256": "f4baea556c8f3e958bbe8203feaf6b31ab02e0bacd4c0a2453196dc4e229f6de"
+    },
+    "civictrace/nebius.py": {
+      "bytes": 36536,
+      "sha256": "023d0afbd2bcbd8ae43bc70a0132944b252e962fd575ca720753bdb4b0703917"
+    },
+    "civictrace/spend_backend.py": {
+      "bytes": 13007,
+      "sha256": "b95e98a846bed0055d582cbeb9a1a93838a19696c4021636dd7ca30072921c55"
+    },
+    "civictrace/spend_firestore.py": {
+      "bytes": 59984,
+      "sha256": "2bda9ec16d5de7f140d7cb8a7b2003d960dd9da990d1153643d6623a1a20df77"
+    },
+    "civictrace/spend_firestore_client.py": {
+      "bytes": 24866,
+      "sha256": "47ae663caff7bf22f04258e982ba793ecfe00b9f9db93d996364cd95ebecb287"
+    },
+    "civictrace/spend_gate.py": {
+      "bytes": 75295,
+      "sha256": "08a323df3d0065c332633ac16f8d0a4d4944f73bb4c9964ef2d8ad961d194720"
+    },
+    "civictrace/spend_lifecycle.py": {
+      "bytes": 25101,
+      "sha256": "b8b60863180a9517417cce1a18057227539087fba439ecada1e2f3515303c14b"
+    },
+    "civictrace/spend_stub_store.py": {
+      "bytes": 7934,
+      "sha256": "b3f95842d68d683ac040e9f28a98f96068ddee8e7c0f26abb7b42de3998e1ca0"
+    },
+    "civictrace/static/favicon.svg": {
+      "bytes": 326,
+      "sha256": "5f53f710e36b97d9e0f4088bff0e3d8a223b1100ff16ae54fd6480ad5733f798"
+    },
+    "civictrace/static/index.html": {
+      "bytes": 8232,
+      "sha256": "290885487fc17a543e7b03a1f1a4dd29c1cb7b238f6c9a2374c9d6c1833a3190"
+    },
+    "civictrace/static/site.css": {
+      "bytes": 8448,
+      "sha256": "604753e3d6b9423cbc160ae5b76a158ccf5752da1da278eebec3142c222fbb85"
+    },
+    "civictrace/static/site.js": {
+      "bytes": 3789,
+      "sha256": "b2a054aa9c6d43dc5df8e625f94ab9526e61c261a26e07ac1ed71e01d0554486"
+    },
+    "civictrace/static/workbench.js": {
+      "bytes": 2961,
+      "sha256": "814529d6c1769aa98e4c8efa7a8ecc9b78523c57847cc32deb29269afcac69a6"
+    },
+    "civictrace/usage_ledger.py": {
+      "bytes": 11817,
+      "sha256": "8d3d6515d329415db4678a2b0174cd1f967b6c2a343d2021dbbb28beef44f1d3"
+    },
+    "civictrace/workbench_ui.py": {
+      "bytes": 81266,
+      "sha256": "340b1b1d07fb3d349b27fb02580425f4a0fc0a0ca25193d13f212107662a3e5c"
+    },
+    "data/claims.json": {
+      "bytes": 3851,
+      "sha256": "502196090bea626034ce79e6f181d005c38463fcfe10521e38179886f9d2d210"
+    },
+    "data/exeter_registry.json": {
+      "bytes": 6482,
+      "sha256": "f1c762c685967ba2ccec2ad016c59d6c6b3998f179595a9694803e5966bf8930"
+    },
+    "docs/BROWSER_TESTING.md": {
+      "bytes": 4673,
+      "sha256": "9ea6a53295cc13f63d5849f55ffffb0a69b4b76df45ba738f9e0f987c67c7fff"
+    },
+    "docs/CONTAINERS.md": {
+      "bytes": 1891,
+      "sha256": "e6e39061cbca7a77e0fba5921d93495a83f0d3bdd7f4ec9a20432eb1b67bf7c4"
+    },
+    "docs/FIRST_CASE.md": {
+      "bytes": 5459,
+      "sha256": "1b88443e3c26a41033fe52ba64b3e6b7a440684159d526dd1b63658adeff1a6d"
+    },
+    "docs/LICENSE_INVENTORY.md": {
+      "bytes": 4611,
+      "sha256": "22dfba90993bfa0875a57208d818cc0e07ac3f764426aedabdf790e1d6186f5c"
+    },
+    "docs/RELEASE_STATUS.md": {
+      "bytes": 3869,
+      "sha256": "467b878099fb46f9cf3bb9e307700fc2afef86ae1b5361c7020ec46fecdf2750"
+    },
+    "docs/SBOM.runtime.cdx.json": {
+      "bytes": 168480,
+      "sha256": "9f49b5ac7e2c6a1381739e31c517446f9aa81deff4967ffc04f344e64f83cb34"
+    },
+    "docs/THIRD_PARTY.md": {
+      "bytes": 1773,
+      "sha256": "186cbed3559db4c76b2e48c5223047887c7a6926d30e758489507ea40d9943e8"
+    },
+    "docs/TROUBLESHOOTING.md": {
+      "bytes": 3991,
+      "sha256": "4673d0fddb486d8ea5f91c7ce3213e2e4fca050a86120be7a989c5173f8aa9a6"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 3935,
+      "sha256": "a3be13c295a9ce66bc462f714a282d7fa89f5c80e30492a25ed2b292295c3e0e"
+    },
+    "launch.py": {
+      "bytes": 4663,
+      "sha256": "d61d88e1e2fc45cec779c90fffac1fce6220b0044162ddc819c2aa75de7249d8"
+    },
+    "pytest.ini": {
+      "bytes": 55,
+      "sha256": "bda7a909340b6a797bc194a64092d27dfda893f358597e668567d0e903e23f6e"
+    },
+    "requirements-dev.lock": {
+      "bytes": 54846,
+      "sha256": "4d311dfffd07f3b7cc94783732c519846096017ff5132cd7b6952ceb15e56ec6"
+    },
+    "requirements-dev.txt": {
+      "bytes": 91,
+      "sha256": "849d80483cf378a36514e192cf8b96377b78fb1580698bb2acd82d3e8e15d52f"
+    },
+    "requirements.lock": {
+      "bytes": 52668,
+      "sha256": "f9dbac349a4d9edc9f57d2620bc0b0da0d9657b6f56b18d4bdfa645645adebfd"
+    },
+    "requirements.txt": {
+      "bytes": 324,
+      "sha256": "d01ae210a0f16e42692dd6bdd115482708b6cb633a9eb70eb47316fed4b24dce"
+    },
+    "scripts/build_public_package.py": {
+      "bytes": 2601,
+      "sha256": "29d8f20df741a6a1fc7bcc2109f03cc9804e899cd15efa1835502410925435e9"
+    },
+    "scripts/check_sbom_coherence.py": {
+      "bytes": 14613,
+      "sha256": "18b83fef5f4fbfaed78fbc4868211058bc2541499fc04b029a21e6674d6070b2"
+    },
+    "scripts/d1_reachability_probe.py": {
+      "bytes": 1854,
+      "sha256": "cfe7bf61cfed10c5696c66972367662ec7c869e0b892cfbc32e861b5dd91d099"
+    },
+    "scripts/freeze_candidate.py": {
+      "bytes": 5855,
+      "sha256": "a8240a2b2b448bee72965ed62a25503ba2e76fbdc94c77fa6dc05ebfb7ce4931"
+    },
+    "scripts/local_acceptance.py": {
+      "bytes": 1082,
+      "sha256": "014db9b55e8b2272caf52834c4b95d9519c3ef1b9ae068b6bb23f43e7196c9e8"
+    },
+    "scripts/verify_public_package.py": {
+      "bytes": 1289,
+      "sha256": "80d5b1a8d79dd6078afb8c46f3f8f665d5132cc9736aa74a10e19bfd2780dcd9"
+    },
+    "scripts/workbench_second_case_rehearsal.py": {
+      "bytes": 45313,
+      "sha256": "2f08ac6017b632fc3c481a0d914788604bef9f759aedb8c093da29a08a80c7e5"
+    },
+    "tests/browser_reference_driver.py": {
+      "bytes": 10687,
+      "sha256": "dffe9e70f8439d1385e8de9200c9cd67034c1b83bfb333b54811045a96bcce2c"
+    },
+    "tests/fake_firestore.py": {
+      "bytes": 15759,
+      "sha256": "5ecefa3d91b9d50c92d675ed6b0ff964a9c4269657efba20d403f7d3313e1796"
+    },
+    "tests/fixtures/synthetic_case.json": {
+      "bytes": 4211,
+      "sha256": "1d9015ec21215c0a572484fa08b9605e02e78fbd5c31f2b9869ddfd1d7350c09"
+    },
+    "tests/test_app.py": {
+      "bytes": 6375,
+      "sha256": "a5b92649c2bf3e401522c36eae940a50d8bc0bec1b90e1f773c33c8f5704c3d9"
+    },
+    "tests/test_browser_origin_proof.py": {
+      "bytes": 17915,
+      "sha256": "503b47ce4d1a2f2696bf87ac679ffc40bb1239cbcf95493a887ab035584b2478"
+    },
+    "tests/test_browser_reference_client.py": {
+      "bytes": 7838,
+      "sha256": "c69edb1d6b98c928c6d5041c960101825d4223a22a1a4f07fae275a54b0e5df7"
+    },
+    "tests/test_bundled_tutorial.py": {
+      "bytes": 4129,
+      "sha256": "5e934c7c264336ebf9b29fa1b274e24c1cf8dd8be31e4e160d55c7dc18f784eb"
+    },
+    "tests/test_case_investigate_route.py": {
+      "bytes": 32034,
+      "sha256": "02c6d5c41f9046be96a1de9466c238a6d3eafe093633c9294ed7bdf869546fa3"
+    },
+    "tests/test_case_store_transactions.py": {
+      "bytes": 13476,
+      "sha256": "6f3bd4376d9d4f66e08a2b031f41c8dc2d5ad24f7fa9b6d205d2ef7e8fac6a69"
+    },
+    "tests/test_citation_diagnostics.py": {
+      "bytes": 2825,
+      "sha256": "464454f48ddcf6a4abc06953b8db4aab0cca33a6a4490a0f3dfc0533abd56882"
+    },
+    "tests/test_completion_token_cap.py": {
+      "bytes": 2235,
+      "sha256": "a44e060395b212cd96281008f7d7e2ffc13af166cfb1379be4018787e383b53c"
+    },
+    "tests/test_court.py": {
+      "bytes": 11739,
+      "sha256": "73b8000de5498c0f3790213db98214a6226f057cb08d9e79e1adaf1a63e9e90d"
+    },
+    "tests/test_distribution_notices.py": {
+      "bytes": 1572,
+      "sha256": "c77cd9d2c25d1a7c2e7c3b469dc7d8d42fd0bbd5c85d1f48ffe1c33c81d23405"
+    },
+    "tests/test_endpoint_compat.py": {
+      "bytes": 4320,
+      "sha256": "925d4576ea3036374e728a4cc264699eb0952d9e9efa44c04c82ab337d07bdc4"
+    },
+    "tests/test_firestore_transport.py": {
+      "bytes": 35080,
+      "sha256": "2c7558b38799e600cf9c2008e6369685d5a7b741d32c805ec649270a79e0fa47"
+    },
+    "tests/test_nebius.py": {
+      "bytes": 23213,
+      "sha256": "4715572f306535c6677dd8894543e22585cd0ae7b9cbc92e95194e92b5310865"
+    },
+    "tests/test_nebius_case_scope.py": {
+      "bytes": 20128,
+      "sha256": "b028b13488b61294150497e3b139caef5bb22984d6b5db530e7cb53ee351f4a3"
+    },
+    "tests/test_origin_guard.py": {
+      "bytes": 11105,
+      "sha256": "6d0eb24e14e75a8dc4754db6d2930e5baf3050bd2db8aff4ece43bcc60f5f807"
+    },
+    "tests/test_package_metadata.py": {
+      "bytes": 1530,
+      "sha256": "2952a4c1de070050dd461ce48fb11c127bc13d4ae140b1bb620fb134275533ef"
+    },
+    "tests/test_portable_launcher.py": {
+      "bytes": 4089,
+      "sha256": "b4fb880b6ff7e85a0a27a197df2925e8695c07749bc030dd77ae97aebe07aaa9"
+    },
+    "tests/test_refund_eligibility.py": {
+      "bytes": 27365,
+      "sha256": "dd94432b51e8a89f23086e409111a00b4360ba9e482024fde9da9fb8bb260b84"
+    },
+    "tests/test_reservation_safety.py": {
+      "bytes": 44400,
+      "sha256": "af090341b3877c9cdb8cba2c69184f95e5f5d50ea2753c93a7f451df93871705"
+    },
+    "tests/test_spend_backend.py": {
+      "bytes": 30789,
+      "sha256": "68ba4865cdd0af5545367b8742b1b6a396284f205c5668899184c4a2cb3cde89"
+    },
+    "tests/test_super_compat.py": {
+      "bytes": 6611,
+      "sha256": "8d0ae5d5f30d2e7dc0c076dceb6bed1d29b9b60180a7e96880fd4fa94701dbb7"
+    },
+    "tests/test_usage_governance.py": {
+      "bytes": 42363,
+      "sha256": "775ae829fbd2546254b270e331b00bafc4450e1f793807bc927727f38ed5082f"
+    },
+    "tests/test_workbench.py": {
+      "bytes": 32098,
+      "sha256": "f46ee7c2be6b0f712ec3dc06a78e45c57c0b4094b7ea5e1762155d89b710a630"
+    },
+    "tests/test_workbench_ui.py": {
+      "bytes": 26068,
+      "sha256": "74842b0ea9bdfe4e1ec17dc7631d9ec33f4c3e41eb7bbab1972e0c31b4619104"
+    },
+    "tutorial/01-bar-screen-council-minutes.txt": {
+      "bytes": 381,
+      "sha256": "1c9c8c3402713aa57d1e6ed061529ab89b7c72320c99579fe96b41c1c7506c82"
+    },
+    "tutorial/02-bar-screen-project-tracker.txt": {
+      "bytes": 225,
+      "sha256": "dcb72b650b147b4dd1109cfdee674ba4e46bb5b5e6ca02191a589efd64fa4c7e"
+    },
+    "tutorial/README.md": {
+      "bytes": 1550,
+      "sha256": "16d6c5de9d518c88798308743ae8934d0a3200f1fba567154774a61873aa05b1"
+    }
+  },
+  "schema": "civictrace-portable-release/1",
+  "version": "portable-rc3"
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CivicTrace">
+  <rect width="64" height="64" rx="32" fill="#0b1625"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="#79d8e8" stroke-width="3"/>
+  <path d="M32 20 44 32 32 44 20 32Z" fill="none" stroke="#79d8e8" stroke-width="4"/>
+</svg>
